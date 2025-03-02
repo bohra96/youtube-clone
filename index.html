@@ -39,7 +39,14 @@
         /></a>
       </div>
       <div class="nav-center">
-        <input type="search" placeholder="search" id="yt-search" size="80" />
+        <input
+          type="search"
+          placeholder="search"
+          id="yt-search"
+          onkeypress="searchVideos()"
+          size="80"
+          autocomplete="off"
+        />
         <i class="fa-solid fa-microphone"></i>
       </div>
       <div class="nav-end">
@@ -52,8 +59,8 @@
     </div>
     <div class="main-section">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 col-sm-12">
+        <div class="row" id="videos-list">
+          <!-- <div class="col-xl-6 col-lg-6 col-sm-12">
             <iframe
               width="560"
               height="315"
@@ -64,67 +71,7 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/V-zpTtQAlKw?si=SMC058QH71K9Fsmy&amp;controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/V-zpTtQAlKw?si=SMC058QH71K9Fsmy&amp;controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/V-zpTtQAlKw?si=SMC058QH71K9Fsmy&amp;controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/V-zpTtQAlKw?si=SMC058QH71K9Fsmy&amp;controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/V-zpTtQAlKw?si=SMC058QH71K9Fsmy&amp;controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
