@@ -90,6 +90,15 @@ iframe {
   height: auto; /* Allow height to adjust proportionally */
   aspect-ratio: 16/9; /* Maintain video aspect ratio */
 }
+#search-btn {
+  display: block;
+  border-radius: 100px;
+  width: 42px;
+  background-color: var(--menu-color);
+  color: var(--inverted--light);
+  margin-right: 5px;
+  font-size: 18px;
+}
 @media only screen and (max-width: 576px) {
   iframe {
     padding: 10px; /* Reduce padding on mobile */
