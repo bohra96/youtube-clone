@@ -24,7 +24,6 @@ body {
   margin-left: -15px;
 }
 
-/* Add better padding for the columns */
 [class*="col-"] {
   padding: 10px;
 }
