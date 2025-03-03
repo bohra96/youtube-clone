@@ -5,11 +5,11 @@ const videosList = document.getElementById("videos-list");
 const searchVideos = async () => {
   try {
     const query = document.getElementById("yt-search").value.trim();
-    if (!query) return; // Don't search if query is empty
+    if (!query) return;
     console.log(query);
     videosList.innerHTML =
       '<div class="col-12 text-center"><p>Loading videos...</p></div>';
-    // Rest of your code
+    
     const API_URL = `https://youtube.googleapis.com/youtube/v3/search?maxResults=12&type=video&videoDuration=long&q=${query}&key=${API_KEY}`;
 
     const res = await fetch(API_URL);
